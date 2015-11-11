@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    window.owPtWidthPtPaddingGrid = {
-        withContentBoxItems: function() {
+    window.outerWidthTesterPercentageWidthPercentagePaddingGrid = {
+        testCallOnPtWidthPtPaddingGridPerAllContentBoxItems: function() {
             var gridWrapperPxWidths = [1071, 1333];
 
             for(var i = 0; i < gridWrapperPxWidths.length; i++) {
@@ -121,7 +121,7 @@ $(document).ready(function() {
             }
         },
 
-        withBorderBoxItems: function() {
+        testCallOnPtWidthPtPaddingGridPerAllBorderBoxItems: function() {
             var gridWrapperPxWidths = [1071, 1333];
 
             for(var i = 0; i < gridWrapperPxWidths.length; i++) {

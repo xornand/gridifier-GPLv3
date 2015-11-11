@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    window.ohPxHeightPxMarginGrid = {
-        withContentBoxItems: function() {
+    window.outerHeightTesterPxHeightPxMarginGrid = {
+        testCallOnPxHeightPxMarginGridPerAllContentBoxItems: function() {
             var gridHeights = [17, 261, 300, 550, 773];
 
             for(var i = 0; i < gridHeights.length; i++) {
@@ -80,7 +80,7 @@ $(document).ready(function() {
             }
         },
 
-        withBorderBoxItems: function() {
+        testCallOnPxHeightPxMarginGridPerAllBorderBoxItems: function() {
             var gridHeights = [67, 261, 300, 550, 773];
 
             for(var i = 0; i < gridHeights.length; i++) {

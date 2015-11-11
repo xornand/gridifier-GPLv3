@@ -1,15 +1,13 @@
-// @todo - Finish tutorials
 $(document).ready(function() {
     var grid = new Gridifier($(".grid"), {
-        //query: "img",
-        query: "> div",
-        //loadImages: true,
-        dragifier: true
-        //gridResizeDelay: 500
+        query: "img",
+        resolveImages: true,
+        dragifier: true,
+        gridTransformTimeout: 500
     });
 
-    grid.append(grid.collectNew());
-    
+    grid.append($(".grid").find("img"));
+
     //setTimeout(function() {
     //    $.each($(".grid").find("img"), function() {
     //        $(this).attr("src", "../../vendor/img/test.jpg");

@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    window.ohPtHeightPtMarginGrid = {
-        withContentBoxItems: function() {
+    window.outerHeightTesterPercentageHeightPercentageMarginGrid = {
+        testCallOnPtHeightPtMarginGridPerAllContentBoxItems: function() {
             var gridWrapperPxHeights = [1071, 1333];
 
             for(var i = 0; i < gridWrapperPxHeights.length; i++) {
@@ -107,7 +107,7 @@ $(document).ready(function() {
             }
         },
 
-        withBorderBoxItems: function() {
+        testCallOnPtHeightPtMarginGridPerAllBorderBoxItems: function() {
             var gridWrapperPxHeights = [1071, 1333];
 
             for(var i = 0; i < gridWrapperPxHeights.length; i++) {

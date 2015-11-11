@@ -1,4 +1,4 @@
-/* Gridifier v2.~.~ source file for custom build.
+/* Gridifier v1.~.~ source file for custom build.
  * Async Responsive HTML Grids
  * http://gridifier.io
  * 
@@ -9,9 +9,10 @@
  * Copyright 2015 nTech
  */
 
-        
-        return this;
-    };
-    
+    Gridifier.Bridge = {};
+    Gridifier.Bridge.SizesResolver = SizesResolver;
+    Gridifier.Bridge.Prefixer = Prefixer;
+    Gridifier.Bridge.Dom = Dom;
+
     return Gridifier;
 }));
